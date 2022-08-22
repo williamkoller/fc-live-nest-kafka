@@ -44,3 +44,12 @@ producer     # 0 cancelamento -------- pagamento -------- consumer1
 - consumer config
   - latest ---- #offset
   - earliest -- mais antigo
+
+- criar topico
+  - `kafka-topics --create --topic topico-exemplo --bootstrap-server localhost:9092`
+
+- criar producer 
+  - `kafka-console-producer --topic topic-example --bootstrap-server localhost:9092`
+
+- criar consumer
+  - `kafka-console-consumer --topic topic-example --bootstrap-server localhost:9092`
